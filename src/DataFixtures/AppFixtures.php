@@ -27,6 +27,7 @@ class AppFixtures extends Fixture
         $aboutMe = new AboutMe();
         $aboutMe->setTitle('Olivier Maffre')
                 ->setEmail('maffrolivier74@gmail.com')
+                ->setProfession('Developper Web')
                 ->setGithublink('Olivier3231')
                 ->setDescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet enim lacus, vel tincidunt leo malesuada a. Praesent et nibh elit. Vestibulum sit amet posuere mauris. Curabitur posuere tempor mauris, vitae sollicitudin urna. Donec consectetur consequat purus, vitae varius dolor commodo nec. Suspendisse eget erat luctus, rhoncus est a, tempus magna. Phasellus rhoncus commodo odio vel convallis.')
                 ->setAvatar('https://picsum.photos/200');

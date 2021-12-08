@@ -42,6 +42,11 @@ class AboutMe
      */
     private $description;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $profession;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -103,6 +108,18 @@ class AboutMe
     public function setDescription(string $description): self
     {
         $this->description = $description;
+
+        return $this;
+    }
+
+    public function getProfession(): ?string
+    {
+        return $this->profession;
+    }
+
+    public function setProfession(string $profession): self
+    {
+        $this->profession = $profession;
 
         return $this;
     }
